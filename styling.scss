@@ -1,0 +1,64 @@
+$primarywhite-color: rgba(167, 167, 183);
+$funpink-color: rgba(230, 85, 32, 0.2);
+$gray: rgb(151, 133, 133);
+$buttonfont:bold 11px Arial;
+
+$big-font: 60px;
+$padding: 10px;
+$smallborder: 1px solid;
+
+body {
+    background-color: $primarywhite-color;
+    color: $gray;
+}
+
+.background {
+    background-image: url("./Photos/Bookstore.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px; 
+    width: 100%;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box; 
+  }
+h1 {
+    color: $primarywhite-color;
+    background-color: rgba(0, 0, 0, 0.02); 
+    font-size: $big-font;
+    margin: 0;
+  }
+.book-box {
+    background-color: $funpink-color;
+    height: 180px;
+    width: 400px;
+    border-radius: 25px;
+    border: dashed $gray;
+    padding: $padding;
+    margin: 15px;
+    display: flex; 
+    align-items: center;
+  }
+.bookcontainer{
+    margin: 10px
+  }
+  
+.book-box img {
+    height: 160px;
+    padding: $padding;
+    margin: 10px;
+    background-color: $primarywhite-color;
+  }
+.button {
+    font: $buttonfont;
+    text-decoration: none;
+    background-color: $gray;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: $smallborder #CCCCCC;
+    border-right: $smallborder #333333;
+    border-bottom: $smallborder #333333;
+    border-left: $smallborder #CCCCCC;
+}

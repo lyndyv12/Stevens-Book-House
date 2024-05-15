@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(167, 167, 183);
+  color: rgb(151, 133, 133);
+}
+
+.background {
+  background-image: url("./Photos/Bookstore.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(167, 167, 183);
+  background-color: rgba(0, 0, 0, 0.02);
+  font-size: 60px;
+  margin: 0;
+}
+
+.book-box {
+  background-color: rgba(230, 85, 32, 0.2);
+  height: 180px;
+  width: 400px;
+  border-radius: 25px;
+  border: dashed rgb(151, 133, 133);
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.bookcontainer {
+  margin: 10px;
+}
+
+.book-box img {
+  height: 160px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(167, 167, 183);
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: rgb(151, 133, 133);
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+/*# sourceMappingURL=styles.css.map */
